@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+}
+header > a {
+    text-decoration: none;
+
+}
+header > a:hover {
+    
+}
