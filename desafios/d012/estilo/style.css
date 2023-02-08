@@ -2,19 +2,25 @@
 
 * {
     margin: 0px;
+    padding: 0px;
+}
+body {
+    min-height: 100vh;
 }
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 4em 0em 4em 0em;
 }
 header h1 {
+    padding-top: 50px;
     font-size: 6em;
+    font-variant: small-caps;
 }
 header p {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 50px;
 }
 header a {
     text-decoration: none;
@@ -27,9 +33,9 @@ header a:hover {
 section {
     font-size: 2em;
     line-height: 2em;
-}
-section p {
-    margin: 2em 0em 2em 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 5vh;
 }
 .container1 {
     background-image: url(../imagens/background001.jpg);
@@ -42,7 +48,8 @@ section p {
     padding-top: 2em;
     padding-bottom: 2em;
     color: white;
-    width: 350px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.568);
 }
 .container2 {
     background-image: url(../imagens/background002.jpg);
