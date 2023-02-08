@@ -6,11 +6,61 @@
 header {
     background-color: black;
     color: white;
+    text-align: center;
+    padding: 4em 0em 4em 0em;
 }
-header > a {
+header h1 {
+    font-size: 6em;
+}
+header p {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header a {
     text-decoration: none;
-
+    font-weight: bolder;
+    color: white;
 }
-header > a:hover {
-    
+header a:hover {
+    text-decoration: underline;
+}
+section {
+    font-size: 2em;
+    line-height: 2em;
+}
+section p {
+    margin: 2em 0em 2em 2em;
+}
+.container1 {
+    background-image: url(../imagens/background001.jpg);
+    margin: 0px;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.conteudo1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+    width: 350px;
+}
+.container2 {
+    background-image: url(../imagens/background002.jpg);
+    margin: 0px;
+    position: relative;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.conteudo2 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 4px;
+    font-family: Arial, Helvetica, sans-serif;
 }
