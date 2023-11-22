@@ -1,3 +1,3 @@
 # html-css
- Curso de HTML5+CSS3 Curso em Vídeo
+ Meus estudos em HTML5 e CSS3
 
